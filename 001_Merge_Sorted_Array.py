@@ -38,9 +38,6 @@ class Solution(object):
         :type n: int
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
-        # 如果 nums2 为空, 则不需要合并
-        if n == 0: return
-        
         # nums1 = [1,2,3,0,0,0]
         #              ^     ^
         #              i     p
