@@ -5,6 +5,11 @@
 例:
 输入: ["eat", "tea", "tan", "ate", "nat", "bat"]
 输出: [["ate","eat","tea"], ["nat","tan"], ["bat"]]
+
+条件:
+1. 1 <= strs.length <= 104
+2. 0 <= strs[i].length <= 100
+3. strs[i] 只包含小写字母
 """
 
 class Solution(object):
